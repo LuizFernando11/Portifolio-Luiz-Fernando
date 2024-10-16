@@ -1,0 +1,27 @@
+:root {
+    --background: #FFF;
+    --foreground: #6E07F3;
+    --primary: #141C3A;
+    --primary-light: #CDD3EB;
+    --primary-foreground: #FFF;
+    --secundary: #5BE8B9;
+    --secundary-forefround: #141C3A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
