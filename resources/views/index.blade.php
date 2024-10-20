@@ -9,23 +9,24 @@
 </head>
 <body>
 
-<header class="container">
-    <div class="navbar">
-        <div class="logo">
-            <a href=""><img src="{{ asset('images/logo.png') }}" alt=""></a>
+    <header class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href=""><img src="{{ asset('images/logo.png') }}" alt=""></a>
+            </div>
+            <div class="menu-opener">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-        <div class="menu-opener">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </div>
-    <nav>
-        <a href="">Blog</a>
-        <a href="">Contato</a>
-    </nav>
-</header>
+        <nav>
+            <a href="">Blog</a>
+            <a href="" class="button">Contato</a>
+        </nav>
+    </header>
 
-    
+    <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
+
 </body>
 </html>
