@@ -26,6 +26,13 @@
         </nav>
     </header>
 
+    <section class="hero container">
+        <h1>Full Stack php/laravel</h1>
+        <h2>Eu desenho e codifico projetos bonitos e amo o que faço.</h2>
+        <img class="hero-avatar" src="{{ asset('images/avatar.svg') }}" alt="" />
+        <img class="hero-device" src="{{ asset('images/hero-devices.svg') }}" alt="" />
+    </section>
+
     <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
 
 </body>
