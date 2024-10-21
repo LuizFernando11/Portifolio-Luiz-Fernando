@@ -33,6 +33,19 @@
         <img class="hero-device" src="{{ asset('images/hero-devices.svg') }}" alt="" />
     </section>
 
+    <section class="intro">
+        <div class="container">
+            <div class="box">
+                <p class="title">Oi, eu sou Luiz Fernando, tudo bem?</p>
+                <p class="subtitle">Desde que comecei minha jornada com designer freelancer, há
+                    bla bla remotos para agencias, ajudei startups e colaborei com pessoas talentosas
+                    bla bla digitais para ambos usos empresarial e do consumidor. Sou bastante confiante,
+                    bla bla trabalho para melhorar minhas habilidades constantemente.
+                </p>
+            </div>
+        </div>
+    </section>
+
     <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
 
 </body>

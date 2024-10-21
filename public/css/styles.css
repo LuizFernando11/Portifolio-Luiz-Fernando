@@ -137,6 +137,34 @@ header nav.opened{
 }
 
 /* Fim Hero area */
+
+/* Intro */
+
+.intro {
+    background-color: var(--foreground);
+    color: var(--primary-foreground);
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.intro .box {
+    max-width: 60rem;
+    margin: auto;
+    padding: 2rem;
+}
+
+.intro .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.intro .subtitle {
+    font-size: 1.8;
+    line-height: 3rem;
+}
+
+/* Fim Intro */
 @media (width > 600px){
     
     /* Header*/
@@ -167,5 +195,11 @@ header nav.opened{
         width: 20rem;
     }
     /* Fim Hero */
+
+    /* Intro */
+    .intro .title {
+        font-size: 3rem;
+    }
+    /* Fim Intro */
 }
 
