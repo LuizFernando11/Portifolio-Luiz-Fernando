@@ -46,6 +46,18 @@
         </div>
     </section>
 
+    <section class="skills">
+        <div class="skills-overlay">
+            <div class="container">
+                <div class="grid">
+                    <div class="skill">...</div>
+                    <div class="skill">...</div>
+                    <div class="skill">...</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
 
 </body>

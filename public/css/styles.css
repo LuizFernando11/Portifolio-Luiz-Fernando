@@ -165,6 +165,42 @@ header nav.opened{
 }
 
 /* Fim Intro */
+
+/* Habilidades */
+
+.skills-overlay {
+    background-color: var(--foreground);
+    height: 10rem;
+}
+
+.skills .container {
+    margin-top: -10rem;
+}
+
+.skills .grid {
+    background-color: var(--background);
+    margin: 0 2rem;
+    border-radius: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    box-shadow: 0 3px 5px var(--primary-light);
+}
+
+.skills .skill {
+    text-align: center;
+    border-right: 0;
+    border-bottom: 1px solid var(--primary-light);
+    color: var(--primary);
+    padding: 5rem 2rem;
+}
+
+.skills .skill:last-child {
+    border-right: 0;
+    border-bottom: 0;
+}
+
+/* Fim Habilidades */
+
 @media (width > 600px){
     
     /* Header*/
@@ -201,5 +237,18 @@ header nav.opened{
         font-size: 3rem;
     }
     /* Fim Intro */
+
+    /* Habilidades */
+
+    .skills .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .skills .skill {
+        border-bottom: 0;
+        border-right: 1px solid var(--primary-light);
+    }
+
+    /* Fim Habilidades */
 }
 
