@@ -201,6 +201,50 @@ header nav.opened{
 
 /* Fim Habilidades */
 
+/* Skill itens */
+
+.skill-icon {
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--secundary);
+    color: var(--secundary-forefround);
+    margin:auto;
+}
+
+.skill-icon img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.skill-title {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 3rem 0;
+}
+
+.skill-desc {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
+
+.skill-sub {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    color: var(--foreground);
+}
+
+.skill-txt {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
+
+/* Fim Skill itens */
+
 @media (width > 600px){
     
     /* Header*/

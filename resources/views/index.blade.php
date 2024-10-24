@@ -50,9 +50,63 @@
         <div class="skills-overlay">
             <div class="container">
                 <div class="grid">
-                    <div class="skill">...</div>
-                    <div class="skill">...</div>
-                    <div class="skill">...</div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <img src="{{ asset('images/design.svg') }}" alt="" />
+                        </div>
+                        <p class="skill-title">Designer</p>
+                        <p class="skill-desc">Eu valorizo estruturas simples, disgn clean e insteçãoes customizadas.</p>
+                        <p class="skill-sub">Coisas que goste de desenhar</p>
+                        <p class="skill-txt">UX, UI, Web, Apps, Logos</p>
+                        <p class="skill-sub">Ferramentas que uso</p>
+                        <div class="skill-txt">
+                            <ul>
+                                <li>Affinity Designer</li>
+                                <li>Figma</li>
+                                <li>papel & Caneta</li>
+                                <li>Sketch</li>
+                                <li>WebFlow</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <img src="{{ asset('images/code.svg') }}" alt="" />
+                        </div>
+                        <p class="skill-title">Front Developer</p>
+                        <p class="skill-desc">Gosto de codigicar projetos do zero, trazer ideias a vida no navegador.</p>
+                        <p class="skill-sub">CLinguagens que uso</p>
+                        <p class="skill-txt">Html, CSS, php, javascript</p>
+                        <p class="skill-sub">Ferramentas que uso</p>
+                        <div class="skill-txt">
+                            <ul>
+                                <li>Githun</li>
+                                <li>Laravel</li>
+                                <li>VsCode</li>
+                                <li>javascript</li>
+                                <li>mysql</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-icon">
+                            <img src="{{ asset('images/video.svg') }}" alt="" />
+                        </div>
+                        <p class="skill-title">Video Maker</p>
+                        <p class="skill-desc">Amo fazer videos com boas produções e efeitos especiais.</p>
+                        <p class="skill-sub">Coisas que goste de filmar</p>
+                        <p class="skill-txt">Pessoas, produtos, ambientes e carros</p>
+                        <p class="skill-sub">Ferramentas que uso</p>
+                        <div class="skill-txt">
+                            <ul>
+                                <li>Adobe Premiere</li>
+                                <li>Davinci resolve</li>
+                                <li>Camera canon</li>
+                                <li>Luzes</li>
+                                <li>Microfone Rode</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
