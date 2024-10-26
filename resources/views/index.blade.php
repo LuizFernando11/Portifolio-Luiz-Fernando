@@ -112,6 +112,14 @@
         </div>
     </section>
 
+    <section class="recent-work container">
+        <p class="title">Meus trabalhos recentes</p>
+        <p class="subtitle"> Aqui estão alguns dos trabalhos que já fiz. Quer ver mais <a href="">Entra em contato.</a></p>
+        <div class="grid">
+            ...
+        </div>
+    </section>
+
     <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
 
 </body>

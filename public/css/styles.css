@@ -168,10 +168,12 @@ header nav.opened{
 
 /* Habilidades */
 
+/*
 .skills-overlay {
     background-color: var(--foreground);
     height: 10rem;
 }
+*/
 
 .skills .container {
     margin-top: -10rem;
@@ -245,6 +247,44 @@ header nav.opened{
 
 /* Fim Skill itens */
 
+/* Recents Works */
+
+.recent-work {
+    text-align: center;
+    color: var(--primary);
+    padding: 0 2rem;
+}
+
+.recent-work .title {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-top: 8rem;
+    margin-bottom: 3.5rem;
+}
+
+.recent-work .subtitle {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.recent-work .subtitle .a {
+    color: var(--foreground);
+    text-decoration: none;
+}
+
+.recent-work .subtitle .a:hover {
+    text-decoration: underline;
+}
+
+.recent-work .grid {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+/* Fim Recents Works */
+
 @media (width > 600px){
     
     /* Header*/
@@ -294,5 +334,29 @@ header nav.opened{
     }
 
     /* Fim Habilidades */
+
+    /* Recents Works */
+
+    .recent-work .title {
+        font-size: 3rem;
+    }
+
+    .recent-work .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Fim Recents Works */
+}
+
+@media (width > 900px){
+
+    /* Recents Works */
+
+    .recent-work .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* Fim Recents Works */
+
 }
 
