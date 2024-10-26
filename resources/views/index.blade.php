@@ -163,6 +163,22 @@
         <a href="" class="button seemore">Deseja ver mais?</a>
     </section>
 
+    <section class="worked-with">
+        <div class="container">
+            <p class="title">Já colaborei com diversas empresas incriveis:</p>
+            <div class="grid">
+                <img src="{{ asset('images/clients/briteweb.svg') }}" alt="" />
+                <img src="{{ asset('images/clients/serpmetrics.svg') }}" alt="" />
+                <img src="{{ asset('images/clients/redstamp.svg') }}" alt="" />
+                <img src="{{ asset('images/clients/domain7.svg') }}" alt="" />
+                <img src="{{ asset('images/clients/designlab.png') }}" alt="" />
+                <img src="{{ asset('images/clients/chronicled.svg') }}" alt="" />
+                <img src="{{ asset('images/clients/bldrs.png') }}" alt="" />
+                <img src="{{ asset('images/clients/serpmetrics.svg') }}" alt="" />
+            </div>
+        </div>
+    </section>
+
     <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
 
 </body>
