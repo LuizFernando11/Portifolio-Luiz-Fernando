@@ -179,6 +179,12 @@
         </div>
     </section>
 
+    <section class="collab">
+        <p class="title">Tem interesse em fazer algum trabalho comigo?</p>
+        <p class="subtitle">Estou sempre aberto a discutir projetos e possiveis parcerias de trabalho.</p>
+        <a href="" class="button">Começar uma conversa</a>
+    </section>
+
     <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
 
 </body>
