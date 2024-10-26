@@ -112,6 +112,57 @@
         </div>
     </section>
 
+    <section class="recent-work container">
+        <p class="title">Meus trabalhos recentes</p>
+        <p class="subtitle"> Aqui estão alguns dos trabalhos que já fiz. Quer ver mais <a href="">Entra em contato.</a></p>
+        <div class="grid">
+            <div class="item">
+                <img class="image" src="{{ asset('images/works/wfdesignbuild.png') }}" alt="" />
+                <div class="overlay">
+                    <p>Aqui vai alguma descricao sobre o projeto em si ou a propria empresa</p>
+                    <a href="" class="button">Visite o website</a>
+                </div>
+            </div>
+            <div class="item">
+                <img class="image" src="{{ asset('images/works/burkettandco.png') }}" alt="" />
+                <div class="overlay">
+                    <p>Aqui vai alguma descricao sobre o projeto em si ou a propria empresa</p>
+                    <a href="" class="button">Visite o website</a>
+                </div>
+            </div>
+            <div class="item">
+                <img class="image" src="{{ asset('images/works/chronicled.png') }}" alt="" />
+                <div class="overlay">
+                    <p>Aqui vai alguma descricao sobre o projeto em si ou a propria empresa</p>
+                    <a href="" class="button">Visite o website</a>
+                </div>
+            </div>
+            <div class="item">
+                <img class="image" src="{{ asset('images/works/glcsolutions.png') }}" alt="" />
+                <div class="overlay">
+                    <p>Aqui vai alguma descricao sobre o projeto em si ou a propria empresa</p>
+                    <a href="" class="button">Visite o website</a>
+                </div>
+            </div>
+            <div class="item">
+                <img class="image" src="{{ asset('images/works/coupal.png') }}" alt="" />
+                <div class="overlay">
+                    <p>Aqui vai alguma descricao sobre o projeto em si ou a propria empresa</p>
+                    <a href="" class="button">Visite o website</a>
+                </div>
+            </div>
+            <div class="item">
+                <img class="image" src="{{ asset('images/works/wedlerengineering.png') }}" alt="" />
+                <div class="overlay">
+                    <p>Aqui vai alguma descricao sobre o projeto em si ou a propria empresa</p>
+                    <a href="" class="button">Visite o website</a>
+                </div>
+            </div>
+        </div>
+
+        <a href="" class="button seemore">Deseja ver mais?</a>
+    </section>
+
     <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
 
 </body>
