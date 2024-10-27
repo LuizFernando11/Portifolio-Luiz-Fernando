@@ -185,6 +185,37 @@
         <a href="" class="button">Começar uma conversa</a>
     </section>
 
+    <section class="testimonials container">
+        <p class="title">Depoimentos</p>
+        <p class="subtitle">As pessoas com quem já trabaçhei disseram coisas boas ao meus respeito</p>
+
+        <div class="slider">
+            <input id="slider-1" name="slider" type="radio">
+            <input id="slider-2" name="slider" type="radio">
+            <div class="slider-area">
+                <div class="slider-item">
+                    <img src="{{ asset('images/avatars/pascal.png') }}" alt="" />
+                    <p class="description">"Trabalhar com Bruno foi um prazer e nós esperamos poder trabalhar juntos
+                    novamente. Ele é o tipo de designer que você pode confiar seu projeto desde o início até o fim."</p>
+                    <p class="name">Antonio Golçalves</p>
+                    <p class="role">Diretor criativo, Empresa X</p>
+                </div>
+                <div class="slider-item">
+                    <img src="{{ asset('images/avatars/alvin.png') }}" alt="" />
+                    <p class="description">“Bruno é um excelente comunicador e possui sensibilidade e confiança para se
+                        aprofundar nos projetos e entender de fato o que deve ser feito para sair um resultado
+                        excepcional.”</p>
+                    <p class="name">Mateus Dantar</p>
+                    <p class="role">CEO, imobiliaria ABC</p>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <label class="n1" for="slider-1">A</label>
+                <label class="n2" for="slider-2">B</label>
+            </div>
+        </div>
+    </section>
+
     <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
 
 </body>
