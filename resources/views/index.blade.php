@@ -233,6 +233,33 @@
         </div>
     </section>
 
+    <footer>
+        <a href="">
+            <img class="logo" src="{{ asset('images/logo_white.png') }}" alt="" />
+        </a>
+        <p class="title">Vivendo, aprendendo e melhorando um dia de cada vez.</p>
+
+        <div class="social">
+            <a href="">
+                <img src="{{ asset('images/social_ig.svg') }}" alt="Instagram" />
+            </a>
+            <a href="">
+                <img src="{{ asset('images/social_x.svg') }}" alt="X" />
+            </a>
+            <a href="">
+                <img src="{{ asset('images/social_Linkedin.svg') }}" alt="LinkedIn" />
+            </a>
+            <a href="">
+                <img src="{{ asset('images/social_email.svg') }}" alt="E-mail" />
+            </a>
+            <a href="">
+                <img src="{{ asset('images/social_zap.svg') }}" alt="WhatsApp" />
+            </a>
+        </div>
+        <p class="copyright">Criado por mim mesmo.</p>
+        <p class="legal">CNPJ: 000-000-0000/00</p>
+    </footer>
+
     <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
 
 </body>
