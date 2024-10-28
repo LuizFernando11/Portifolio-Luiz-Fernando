@@ -216,6 +216,23 @@
         </div>
     </section>
 
+    <section class="cta">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="area">
+                <div class="area-side">
+                    <p class="title">Comece um projeto</p>
+                </div>
+                <div class="area-side">
+                    <p class="subtitle">Tem interesse em trabalhar junto? Vamos agendar uma reunião</p>
+                </div>
+                <div class="area-side">
+                    <a href="" class="button">Agendar reunião</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
 
 </body>
