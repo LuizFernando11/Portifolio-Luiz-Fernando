@@ -21,13 +21,13 @@
             </div>
         </div>
         <nav>
-            <a href="">Blog</a>
+            <a href="">Login</a>
             <a href="" class="button">Contato</a>
         </nav>
     </header>
 
     <section class="hero container">
-        <h1>Full Stack php/laravel</h1>
+        <h1>Full Stack PHP/Laravel</h1>
         <h2>Eu desenho e codifico projetos bonitos e amo o que faço.</h2>
         <img class="hero-avatar" src="{{ asset('images/avatar.svg') }}" alt="" />
         <img class="hero-device" src="{{ asset('images/hero-devices.svg') }}" alt="" />
@@ -37,10 +37,8 @@
         <div class="container">
             <div class="box">
                 <p class="title">Oi, eu sou Luiz Fernando, tudo bem?</p>
-                <p class="subtitle">Desde que comecei minha jornada com designer freelancer, há
-                    bla bla remotos para agencias, ajudei startups e colaborei com pessoas talentosas
-                    bla bla digitais para ambos usos empresarial e do consumidor. Sou bastante confiante,
-                    bla bla trabalho para melhorar minhas habilidades constantemente.
+                <p class="subtitle">Sou formado em Análise e Desenvolvimento de Sistemas pelo Instituto Vianna Jr
+                e desde então tenho me aprimorado em PHP/Laravel para desenvolvimento de sites e sistemas.
                 </p>
             </div>
         </div>
@@ -52,43 +50,42 @@
                 <div class="grid">
                     <div class="skill">
                         <div class="skill-icon">
-                            <img src="{{ asset('images/design.svg') }}" alt="" />
+                            <img src="{{ asset('images/code.svg') }}" alt="" />
                         </div>
-                        <p class="skill-title">Designer</p>
-                        <p class="skill-desc">Eu valorizo estruturas simples, disgn clean e insteçãoes customizadas.</p>
-                        <p class="skill-sub">Coisas que goste de desenhar</p>
-                        <p class="skill-txt">UX, UI, Web, Apps, Logos</p>
+                        <p class="skill-title">Back-end Developer</p>
+                        <p class="skill-desc">Eu valorizo estruturas simples e customizadas.</p>
+                        <p class="skill-sub">Coisas que goste de codigicar</p>
+                        <p class="skill-txt">sistemas e páginas Web</p>
                         <p class="skill-sub">Ferramentas que uso</p>
                         <div class="skill-txt">
                             <ul>
-                                <li>Affinity Designer</li>
-                                <li>Figma</li>
-                                <li>papel & Caneta</li>
-                                <li>Sketch</li>
-                                <li>WebFlow</li>
+                                <li>VsCode</li>
+                                <li>PHP</li>
+                                <li>Laravel</li>
+                                <li>MySQLl</li>
+                                <li>GitHub</li>
                             </ul>
                         </div>
                     </div>
                     <div class="skill">
                         <div class="skill-icon">
-                            <img src="{{ asset('images/code.svg') }}" alt="" />
+                            <img src="{{ asset('images/design.svg') }}" alt="" />
                         </div>
-                        <p class="skill-title">Front Developer</p>
-                        <p class="skill-desc">Gosto de codigicar projetos do zero, trazer ideias a vida no navegador.</p>
-                        <p class="skill-sub">CLinguagens que uso</p>
-                        <p class="skill-txt">Html, CSS, php, javascript</p>
+                        <p class="skill-title">Front-end Developer</p>
+                        <p class="skill-desc">Gosto de codificar projetos do zero, trazendo ideias à vida no navegador.</p>
+                        <p class="skill-sub">Linguagens que uso</p>
+                        <p class="skill-txt">HTML, CSS, JavaScript, PHP/Laravel</p>
                         <p class="skill-sub">Ferramentas que uso</p>
                         <div class="skill-txt">
                             <ul>
-                                <li>Githun</li>
-                                <li>Laravel</li>
-                                <li>VsCode</li>
-                                <li>javascript</li>
-                                <li>mysql</li>
+                                <li>Html e CSS</li>
+                                <li>JavaScript</li>
+                                <li>Bootstrap</li>
+                                <li>GitHub</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="skill">
+                    <!--<div class="skill">
                         <div class="skill-icon">
                             <img src="{{ asset('images/video.svg') }}" alt="" />
                         </div>
@@ -106,24 +103,24 @@
                                 <li>Microfone Rode</li>
                             </ul>
                         </div>
-                    </div>
-                </div>
+                    </div>-->
+                </di>
             </div>
         </div>
     </section>
 
     <section class="recent-work container">
         <p class="title">Meus trabalhos recentes</p>
-        <p class="subtitle"> Aqui estão alguns dos trabalhos que já fiz. Quer ver mais <a href="">Entra em contato.</a></p>
+        <p class="subtitle"> Aqui estão alguns dos trabalhos que já fiz. Quer ver mais <a href="">Entre em contato.</a></p>
         <div class="grid">
             <div class="item">
-                <img class="image" src="{{ asset('images/works/wfdesignbuild.png') }}" alt="" />
+                <img class="image" src="{{ asset('images/works/Logo_PSI_Natalia.png') }}" alt="" />
                 <div class="overlay">
-                    <p>Aqui vai alguma descricao sobre o projeto em si ou a propria empresa</p>
-                    <a href="" class="button">Visite o website</a>
+                    <p>Natalia Cabette Psicóloga</p>
+                    <a href="http://192.168.1.11/" class="button">Visite o website</a>
                 </div>
             </div>
-            <div class="item">
+            <!--<div class="item">
                 <img class="image" src="{{ asset('images/works/burkettandco.png') }}" alt="" />
                 <div class="overlay">
                     <p>Aqui vai alguma descricao sobre o projeto em si ou a propria empresa</p>
@@ -157,13 +154,13 @@
                     <p>Aqui vai alguma descricao sobre o projeto em si ou a propria empresa</p>
                     <a href="" class="button">Visite o website</a>
                 </div>
-            </div>
+            </div>-->
         </div>
 
         <a href="" class="button seemore">Deseja ver mais?</a>
     </section>
 
-    <section class="worked-with">
+    <!--<section class="worked-with">
         <div class="container">
             <p class="title">Já colaborei com diversas empresas incriveis:</p>
             <div class="grid">
@@ -177,15 +174,15 @@
                 <img src="{{ asset('images/clients/serpmetrics.svg') }}" alt="" />
             </div>
         </div>
-    </section>
+    </section>-->
 
     <section class="collab">
         <p class="title">Tem interesse em fazer algum trabalho comigo?</p>
-        <p class="subtitle">Estou sempre aberto a discutir projetos e possiveis parcerias de trabalho.</p>
+        <p class="subtitle">Estou sempre aberto a discutir projetos e possíveis parcerias de trabalho.</p>
         <a href="" class="button">Começar uma conversa</a>
     </section>
 
-    <section class="testimonials container">
+    <!--<section class="testimonials container">
         <p class="title">Depoimentos</p>
         <p class="subtitle">As pessoas com quem já trabaçhei disseram coisas boas ao meus respeito</p>
 
@@ -214,9 +211,9 @@
                 <label class="n2" for="slider-2"></label>
             </div>
         </div>
-    </section>
+    </section>-->
 
-    <section class="cta">
+    <!--<section class="cta">
         <div class="overlay"></div>
         <div class="container">
             <div class="area">
@@ -231,7 +228,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <footer>
         <a href="">
@@ -240,24 +237,24 @@
         <p class="title">Vivendo, aprendendo e melhorando um dia de cada vez.</p>
 
         <div class="social">
-            <a href="">
+            <a href="https://www.instagram.com/luiz_fernando.11/">
                 <img src="{{ asset('images/social_ig.svg') }}" alt="Instagram" />
             </a>
-            <a href="">
+            <!-- <a href="">
                 <img src="{{ asset('images/social_x.svg') }}" alt="X" />
-            </a>
-            <a href="">
+            </a> -->
+            <a href="https://www.linkedin.com/in/luiz-fernando-duarte-cabette-3a0ba7193/">
                 <img src="{{ asset('images/social_Linkedin.svg') }}" alt="LinkedIn" />
             </a>
-            <a href="">
+            <a href="mailto:luiz.fernando@viannasempre.com.br">
                 <img src="{{ asset('images/social_email.svg') }}" alt="E-mail" />
             </a>
             <a href="">
                 <img src="{{ asset('images/social_zap.svg') }}" alt="WhatsApp" />
             </a>
         </div>
-        <p class="copyright">Criado por mim mesmo.</p>
-        <p class="legal">CNPJ: 000-000-0000/00</p>
+        <p class="copyright">Criado por: Luiz Fernando Duarte Cabette.</p>
+        <p class="legal">CPF: 084.831.716-51</p>
     </footer>
 
     <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>

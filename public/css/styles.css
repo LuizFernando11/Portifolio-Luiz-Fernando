@@ -162,6 +162,7 @@ header nav.opened{
 .intro .subtitle {
     font-size: 1.8;
     line-height: 3rem;
+    padding-bottom: 5rem;
 }
 
 /* Fim Intro */
@@ -650,7 +651,7 @@ header nav.opened{
     /* Habilidades */
 
     .skills .grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .skills .skill {
