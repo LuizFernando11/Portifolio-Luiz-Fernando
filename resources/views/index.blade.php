@@ -21,8 +21,9 @@
             </div>
         </div>
         <nav>
-            <a href="">Login</a>
-            <a href="" class="button">Contato</a>
+            <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">
+                Login</a>
+            <a href="https://wa.me/+5532988097534" class="button">Contato</a>
         </nav>
     </header>
 
@@ -179,7 +180,7 @@
     <section class="collab">
         <p class="title">Tem interesse em fazer algum trabalho comigo?</p>
         <p class="subtitle">Estou sempre aberto a discutir projetos e possíveis parcerias de trabalho.</p>
-        <a href="" class="button">Começar uma conversa</a>
+        <a href="https://wa.me/+5532988097534" class="button">Começar uma conversa</a>
     </section>
 
     <!--<section class="testimonials container">
@@ -249,7 +250,7 @@
             <a href="mailto:luiz.fernando@viannasempre.com.br">
                 <img src="{{ asset('images/social_email.svg') }}" alt="E-mail" />
             </a>
-            <a href="">
+            <a href="https://wa.me/+5532988097534">
                 <img src="{{ asset('images/social_zap.svg') }}" alt="WhatsApp" />
             </a>
         </div>
