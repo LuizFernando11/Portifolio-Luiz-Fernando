@@ -611,6 +611,62 @@ header nav.opened{
 
     /* Fim Footer */
 
+    /* Login */
+
+    .painel-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-container {
+        width: 100%;
+        max-width: 400px;
+        background-color: #fff;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .login-container h2 {
+        margin-bottom: 1.5rem;
+        font-size: 1.5rem;
+        color: #333;
+    }
+
+    .login-container input[type="email"] {
+        width: 100%;
+        padding: 0.75rem;
+        margin: 0.5rem 0;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 1rem;
+    }
+
+    .login-container input[type="password"]{
+        width: 100%;
+        padding: 0.75rem;
+        margin: 0.5rem 0;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 1rem;
+    }
+
+    .login-container .button {
+        color: var(--foreground);
+        margin-top: 2rem;
+        text-decoration: none;
+    }
+
+    .login-container .button:hover {
+        color: var(--primary-foreground);
+        margin-top: 2rem;
+        text-decoration: none;
+    }
+
+    /* Fim Login */
+
 @media (width > 600px){
     
     /* Header*/
