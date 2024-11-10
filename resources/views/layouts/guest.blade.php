@@ -40,6 +40,6 @@
     <p class="legal">CPF: 084.831.716-51</p>
     </footer>
 
-    <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
+    <!-- <script type="text/javascript" src="{{ asset('js/script.js') }}"></script> -->
 </body>
 </html>
